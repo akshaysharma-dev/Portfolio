@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Akshay Sharma - B.Tech CS student and aspiring software developer" />
+  <title>Akshay Sharma | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="navbar" id="navbar">
+    <a href="#home" class="logo">Akshay<span>.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">&#9776;</button>
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button class="theme-btn" id="themeBtn" aria-label="Toggle dark or light mode">🌙</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ============ 1. HOME ============ -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="badge">Open to learning &amp; building</p>
+      <h1>Hi, I'm <span class="gradient-text">Akshay Sharma</span></h1>
+      <h2 class="typing">I'm a <span id="typed"></span><span class="cursor">|</span></h2>
+      <p class="hero-text">
+        First-year B.Tech CS student from Lucknow who loves turning ideas into
+        working software. Currently learning web development, C++ and data structures.
+      </p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn primary">Explore Projects</a>
+        <a href="#contact" class="btn secondary">Get In Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 2. ABOUT ============ -->
+  <section class="section" id="about">
+    <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+    <div class="about-grid">
+      <div class="about-card">
+        <h3>Who am I?</h3>
+        <p>
+          I'm Akshay, a first-year Computer Science student at
+          KIET Group of Institutions, Delhi NCR. I am disciplined and know how to keep going when
+          things are hard.
+        </p>
+        <p>
+          My goal is to become a strong software engineer through a skills-first
+          approach: learning fundamentals, building real projects, and
+          practising problem solving consistently.
+        </p>
+      </div>
+      <div class="about-card">
+        <h3>Quick Facts</h3>
+        <ul class="facts">
+          <li><strong>Name:</strong> Akshay Sharma</li>
+          <li><strong>Location:</strong> Lucknow, India</li>
+          <li><strong>Course:</strong> B.Tech, Computer Science </li>
+          <li><strong>College:</strong> KIET Group of Institutions</li>
+          <li><strong>Batch:</strong> 2026 - 2030</li>
+          <li><strong>Interests:</strong> Coding, video editing, data structures, ai/ml</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 3. EDUCATION ============ -->
+  <section class="section alt" id="education">
+    <h2 class="section-title">My <span class="gradient-text">Education</span></h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <span class="year">2026 - 2030</span>
+        <h3>B.Tech in Computer Science </h3>
+        <p>KIET Group of Institutions. Currently in first year, studying C++, Digital Logic Design, Calculus, Physics and Web Development.</p>
+      </div>
+      
+      <div class="timeline-item">
+        <span class="year">Class XII</span>
+        <h3>Senior Secondary (Science - PCM)</h3>
+        <p>Completed with Physics, Chemistry and Mathematics. CBSE, Lucknow Public School and 92.8% </em></p>
+      </div>
+      <div class="timeline-item">
+        <span class="year">Class X</span>
+        <h3>Secondary Education</h3>
+        <p>CBSE, Lucknow Public School and 97.2%</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 4. SKILLS ============ -->
+  <section class="section" id="skills">
+    <h2 class="section-title">My <span class="gradient-text">Skills</span></h2>
+
+    <h3 class="sub-title">Technical Skills</h3>
+    <div class="skills-grid" id="techSkills">
+      <div class="skill" data-level="100"><div class="skill-head"><span>HTML</span></div><div class="bar"><div class="fill"></div></div></div>
+      <div class="skill" data-level="100"><div class="skill-head"><span>CSS</span></div><div class="bar"><div class="fill"></div></div></div>
+      <div class="skill" data-level="100"><div class="skill-head"><span>JavaScript</span></div><div class="bar"><div class="fill"></div></div></div>
+      <div class="skill" data-level="100"><div class="skill-head"><span>C++</span></div><div class="bar"><div class="fill"></div></div></div>
+      <div class="skill" data-level="100"><div class="skill-head"><span>Data Structures</span></div><div class="bar"><div class="fill"></div></div></div>
+      <div class="skill" data-level="100"><div class="skill-head"><span>Git &amp; GitHub</span></div><div class="bar"><div class="fill"></div></div></div>
+    </div>
+
+    <h3 class="sub-title">Non-Technical Skills</h3>
+    <div class="chips">
+      <span class="chip">Problem Solving</span>
+      <span class="chip">Consistency</span>
+      <span class="chip">Time Management</span>
+      <span class="chip">Teamwork</span>
+      <span class="chip">Quick Learner</span>
+      <span class="chip">Video Editing</span>
+      <span class="chip">Communication</span>
+    </div>
+  </section>
+
+  <!-- ============ 5. PROJECTS ============ -->
+  <section class="section alt" id="projects">
+    <h2 class="section-title">My <span class="gradient-text">Projects</span></h2>
+    <div class="projects-grid">
+      <article class="project-card">
+        <div class="project-icon">🌐</div>
+        <h3>Personal Portfolio Website</h3>
+        <p>A responsive portfolio with dark/light mode, animated skill bars, smooth scrolling and a validated contact form.</p>
+        <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        <a class="link" href="#home">View Live</a>
+      </article>
+      <article class="project-card">
+        <div class="project-icon">✅</div>
+        <h3>To-Do List &amp; Task Manager</h3>
+        <p>Add, edit, delete and complete tasks, filter by status, and keep everything saved with localStorage.</p>
+        <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>localStorage</span></div>
+        <a class="link" href="https://github.com/YOUR-USERNAME/todo-task-manager" target="_blank" rel="noopener">View on GitHub</a>
+      </article>
+      <article class="project-card">
+        <div class="project-icon">💻</div>
+        <h3>C++ Practice Programs</h3>
+        <p>Collection of beginner C++ programs covering loops, arrays, functions and basic problem solving.</p>
+        <div class="tags"><span>C++</span><span>DSA</span></div>
+        <a class="link" href="https://github.com/akshaysharma-dev/cpp_dsa" target="_blank" rel="noopener">View on GitHub</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ 6. CONTACT ============ -->
+  <section class="section" id="contact">
+    <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+    <div class="contact-wrap">
+      <div class="contact-info">
+        <h3>Let's connect</h3>
+        <p>Have a question, idea or opportunity? Send me a message and I'll get back to you.</p>
+        <p>📍 Lucknow, India</p>
+        <p>✉️ your-email@example.com</p>
+        <p>🔗 <a href="https://github.com/YOUR-USERNAME" target="_blank" rel="noopener">GitHub</a></p>
+      </div>
+      <form id="contactForm" novalidate>
+        <div class="field">
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Your name" />
+          <small class="error" id="nameErr"></small>
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="you@example.com" />
+          <small class="error" id="emailErr"></small>
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" rows="5" placeholder="Write your message..."></textarea>
+          <small class="error" id="messageErr"></small>
+        </div>
+        <button type="submit" class="btn primary">Send Message</button>
+        <p class="success" id="formSuccess"></p>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Akshay Sharma. Built with HTML, CSS &amp; JavaScript.</p>
+  </footer>
+
+  <button id="toTop" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
